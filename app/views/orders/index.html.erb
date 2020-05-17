@@ -1,0 +1,30 @@
+<table>
+  <tr>
+    <th style="background-color: yellow">Nombre de client unique</th>
+    <th style="background-color: yellow">Nombre de commandes</th>
+    <th style="background-color: yellow">click and collect</th>
+    <th style="background-color: yellow">Livraison commerçant</th>
+    <th style="background-color: yellow">livraison Laposte</th>
+  </tr>
+  <tr>
+    <td><%= @uniq_customer.uniq.size %></td>
+    <td><%= @orders %></td>
+    <td><%= @clickandcollect %></td>
+    <td><%= @traders_delivery %></td>
+    <td><%= @laposte_delivery %></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th style="background-color: yellow">Listing des commerçants</th>
+    <th style="background-color: yellow">Nombre de commmandes par commerçant</th>
+  </tr>
+  <% @listing_traders.uniq.each do |trader| %>
+    <tr>
+      <td><%= trader %></td>
+      <td><%= @listing_traders.count(trader) %></td>
+    </tr>
+  <% end %>
+</table>
+

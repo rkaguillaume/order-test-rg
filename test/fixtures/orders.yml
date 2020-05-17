@@ -1,0 +1,59 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  business_name: MyString
+  address: MyString
+  cp: MyString
+  city: MyString
+  trader_email: MyString
+  trader_phone: MyString
+  regate: 1
+  action: MyString
+  start_delivery: MyString
+  order_ref: MyString
+  customer_name: MyString
+  place_delivery: MyString
+  mailbox: MyString
+  custumer_address: MyString
+  address_complement: MyString
+  customer_cp: MyString
+  customer_city: MyString
+  access_info: MyString
+  more_info: MyString
+  fresh: 1
+  first_necessity: 1
+  dry: 1
+  object_number: 1
+  customer_phone: MyString
+  customer_email: MyString
+  customer_comment: MyString
+  delivery_type: MyString
+
+two:
+  business_name: MyString
+  address: MyString
+  cp: MyString
+  city: MyString
+  trader_email: MyString
+  trader_phone: MyString
+  regate: 1
+  action: MyString
+  start_delivery: MyString
+  order_ref: MyString
+  customer_name: MyString
+  place_delivery: MyString
+  mailbox: MyString
+  custumer_address: MyString
+  address_complement: MyString
+  customer_cp: MyString
+  customer_city: MyString
+  access_info: MyString
+  more_info: MyString
+  fresh: 1
+  first_necessity: 1
+  dry: 1
+  object_number: 1
+  customer_phone: MyString
+  customer_email: MyString
+  customer_comment: MyString
+  delivery_type: MyString
